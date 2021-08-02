@@ -1,0 +1,2 @@
+class StateReview::Review
+end
