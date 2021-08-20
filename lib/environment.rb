@@ -5,13 +5,13 @@ require 'open-uri'
 require 'pry'
 
 
-require_relative "../lib/state_review/version.rb"
-require_relative "../lib/state_review/cli.rb"
-require_relative "../lib/state_review/scraper.rb"
-require_relative "../lib/state_review/state.rb"
-require_relative "../lib/state_review/review.rb"
+require_relative "../lib/book_review/version.rb"
+require_relative "../lib/book_review/cli.rb"
+require_relative "../lib/book_review/scraper.rb"
+require_relative "../lib/book_review/book.rb"
 
-module StateReview
+
+module BookReview
   class Error < StandardError; end
   # Your code goes here...
 end

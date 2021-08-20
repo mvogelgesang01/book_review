@@ -1,2 +1,0 @@
-class StateReview::State
-end

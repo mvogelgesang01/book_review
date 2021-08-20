@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-require_relative "lib/state_review/version"
+require_relative "lib/book_review/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "state_review"
-  spec.version       = StateReview::VERSION
+  spec.name          = "book_review"
+  spec.version       = BookReview::VERSION
   spec.authors       = ["Melissa Vogelgesang\ncat ~/.ssh/id_rsa.pub\nssh-keygen\n\nssh-rsa\nssh-keygen\ncat ~/.ssh/id_rsa.pub\ncat ~/.ssh/id_rsa.pub\n'\n"]
   spec.email         = ["mvogelgesang01@gmail.com"]
 
-  spec.summary       = "summary"
-  spec.description   = "description"
-  spec.homepage      = "https://realestate.usnews.com/places/rankings/best-places-to-live"
+  spec.summary       = "Book Review from the command live"
+  spec.description   = "Book Review"
+  spec.homepage      = "https://bookmarks.reviews/biggest-new-books/"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.4.0"
 
