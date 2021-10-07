@@ -9,7 +9,7 @@ require_relative "../lib/book_review/version.rb"
 require_relative "../lib/book_review/cli.rb"
 require_relative "../lib/book_review/scraper.rb"
 require_relative "../lib/book_review/book.rb"
-
+require_relative "../lib/book_review/review.rb"
 
 module BookReview
   class Error < StandardError; end
