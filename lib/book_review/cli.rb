@@ -60,9 +60,9 @@ if input == "Y" || input == "YES"
     book.reviews.each do |review, index|
         puts "#{review.quote} \n\n"
     end
-elsif input! == "list"
+elsif input == "list"
 list_books
-elsif input!= "exit"
+elsif input= "exit"
     puts "goodbye"
    end
 end
