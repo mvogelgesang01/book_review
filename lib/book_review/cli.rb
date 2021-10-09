@@ -62,7 +62,7 @@ if input == "Y" || input == "YES"
     end
 elsif input == "list"
 list_books
-elsif input= "exit"
+elsif input == "exit"
     puts "goodbye"
    end
 end
